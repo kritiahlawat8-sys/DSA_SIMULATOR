@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@400;500;600&display=swap");
+
+:root {
+  --cream: #ebdda4;
+  --cream-soft: #f3eac6;
+  --blue: #5b6aa5;
+  --blue-dark: #46538a;
+  --white:#ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #ffffff;
+  color: var(--blue);
+}
